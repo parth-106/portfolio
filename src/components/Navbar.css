@@ -1,0 +1,10 @@
+.customMenu::after{
+    content: '' !important;
+    height: 2px !important;
+    background-color: palevioletred !important;
+}
+.customMenu::before{
+    content: '' !important;
+    height: 2px !important;
+    background-color: palevioletred !important;
+}
