@@ -31,6 +31,10 @@ export const skills = [
         title:'React'
     },
     {
+        image:nextjs,
+        title:'Next.js'
+    },
+    {
         image:tailwind,
         title:'Tailwind'
     },
@@ -42,10 +46,6 @@ export const skills = [
         image:typescript,
         title:'TypeScript'
     },
-    {
-        image:nextjs,
-        title:'Next.js'
-    }
 ]
 
 export const navlinks=[
@@ -81,7 +81,7 @@ export const experiences = [
     date: `June 2021 - ${new Date().getFullYear()} (present)`,
     points: [
       "Designing, developing, and maintaining scalable web applications using React.js and modern JavaScript/TypeScript frameworks.",
-      "Collaborating closely with UI/UX designers and backend developers to deliver high-quality user experiences.",
+      "Collaborating closely with UI/UX designers and frontend developers to deliver high-quality user experiences.",
       "Optimizing application performance and ensuring responsive design across various devices and platforms.",
       "Participating in code reviews, debugging, and continuous integration to ensure code quality and maintainability.",
     ],
@@ -122,36 +122,36 @@ export const socialMedia = [
     ]
 
 export const data = [
-    {
-        id: 1,
-        name: "System Health & Business Analytics Dashboard",
-        description:
-            "Built an enterprise-grade analytics dashboard to visualize real-time system health metrics, KPIs, and business intelligence data. Developed robust backend APIs using PHP & Laravel, featuring interactive charts, customizable widgets, and drill-down reporting for data-driven decision making.",
-        tags: [
-            { name: "React" },
-            { name: "TypeScript" },
-            { name: "PHP" },
-            { name: "Laravel" },
-            { name: "Chakra UI" },
-        ],
-        gradient: "from-blue-600 via-cyan-500 to-blue-400",
-        icon: "chart",
-    },
-    {
-        id: 2,
-        name: "Background Job Tracking Dashboard",
-        description:
-            "Developed a real-time monitoring dashboard to track and manage background jobs, task queues, and scheduled processes. Built scalable backend APIs with PHP & Laravel to handle job lifecycle management, providing live status updates, failure alerts, and retry mechanisms.",
-        tags: [
-            { name: "React" },
-            { name: "TypeScript" },
-            { name: "PHP" },
-            { name: "Laravel" },
-            { name: "Chakra UI" },
-        ],
-        gradient: "from-purple-600 via-violet-500 to-indigo-500",
-        icon: "jobs",
-    },
+    // {
+    //     id: 1,
+    //     name: "System Health & Business Analytics Dashboard",
+    //     description:
+    //         "Built an enterprise-grade analytics dashboard to visualize real-time system health metrics, KPIs, and business intelligence data. Developed robust backend APIs using PHP & Laravel, featuring interactive charts, customizable widgets, and drill-down reporting for data-driven decision making.",
+    //     tags: [
+    //         { name: "React" },
+    //         { name: "TypeScript" },
+    //         { name: "PHP" },
+    //         { name: "Laravel" },
+    //         { name: "Chakra UI" },
+    //     ],
+    //     gradient: "from-blue-600 via-cyan-500 to-blue-400",
+    //     icon: "chart",
+    // },
+    // {
+    //     id: 2,
+    //     name: "Background Job Tracking Dashboard",
+    //     description:
+    //         "Developed a real-time monitoring dashboard to track and manage background jobs, task queues, and scheduled processes. Built scalable backend APIs with PHP & Laravel to handle job lifecycle management, providing live status updates, failure alerts, and retry mechanisms.",
+    //     tags: [
+    //         { name: "React" },
+    //         { name: "TypeScript" },
+    //         { name: "PHP" },
+    //         { name: "Laravel" },
+    //         { name: "Chakra UI" },
+    //     ],
+    //     gradient: "from-purple-600 via-violet-500 to-indigo-500",
+    //     icon: "jobs",
+    // },
     {
         id: 3,
         name: "Enterprise Policy Creation",
@@ -165,23 +165,23 @@ export const data = [
             { name: "REST API" },
         ],
         gradient: "from-amber-500 via-orange-500 to-yellow-400",
-        icon: "policy",
+        icon: "jobs",
     },
-    {
-        id: 4,
-        name: "e-Signature Configuration",
-        description:
-            "Developed a configurable e-signature workflow system allowing enterprises to set up digital signature flows, manage signer roles, and configure signing sequences. Seamlessly integrates with document management systems for end-to-end digital signing.",
-        tags: [
-            { name: "React" },
-            { name: "TypeScript" },
-            { name: "DocuSign API" },
-            { name: "Chakra UI" },
-            { name: "REST API" },
-        ],
-        gradient: "from-emerald-500 via-teal-500 to-green-400",
-        icon: "sign",
-    },
+    // {
+    //     id: 4,
+    //     name: "e-Signature Configuration",
+    //     description:
+    //         "Developed a configurable e-signature workflow system allowing enterprises to set up digital signature flows, manage signer roles, and configure signing sequences. Seamlessly integrates with document management systems for end-to-end digital signing.",
+    //     tags: [
+    //         { name: "React" },
+    //         { name: "TypeScript" },
+    //         { name: "DocuSign API" },
+    //         { name: "Chakra UI" },
+    //         { name: "REST API" },
+    //     ],
+    //     gradient: "from-emerald-500 via-teal-500 to-green-400",
+    //     icon: "sign",
+    // },
     {
         id: 5,
         name: "Aikido Security",

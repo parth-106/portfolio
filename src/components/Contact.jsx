@@ -83,8 +83,8 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        'service_vmutz1j',
-        'template_a863l76',
+        'service_363zxzs',
+        'template_yst1z1i',
         {
           from_name: form.name,
           to_name: 'Parth Patel',
@@ -93,7 +93,7 @@ const Contact = () => {
           message: form.message,
           client_email: form.email,
         },
-        'hOguolAynZZJxY8Zz'
+        'euIztaTQPjoWXnMkv'
       )
       .then(
         () => {
